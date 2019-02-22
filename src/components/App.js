@@ -21,6 +21,7 @@ class App extends React.Component {
         <h1>App</h1>
         <SearchBar onFormSubmit={this.onTermSubmit} />I have{" "}
         {this.state.videos.length} videos
+        <VideoList />
       </div>
     );
   }

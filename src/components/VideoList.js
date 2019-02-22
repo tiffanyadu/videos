@@ -1,9 +1,7 @@
 import React from "react";
 
-class VideoList extends ReactComponent {
-  render() {
-    return <div>VideoList</div>;
-  }
-}
+const VideoList = props => {
+  return <div>{props.videos.length}</div>;
+};
 
 export default VideoList;

@@ -29,7 +29,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="ui container">
-        <h1>App</h1>
+        <h1>FauxTube</h1>
         <SearchBar onFormSubmit={this.onTermSubmit} />
         <div className="ui grid">
           <div className="ui row">
